@@ -25,7 +25,6 @@ class CreateStaffTable extends Migration
             $table->string('specialite_staff');
             $table->string('profil_staff');
             $table->string('cnipass_staff');
-            $table->unsignedInteger('user_id');
             $table->timestamps();
         });
     }
